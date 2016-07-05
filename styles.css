@@ -1,0 +1,32 @@
+img {
+	position:fixed;
+	top:0;
+	left:0;
+	max-width: 100%;
+	z-index: -9999;
+	opacity: 0.33;
+}
+
+h1 {
+	border-bottom: 3px solid black;
+}
+
+p {
+	font-size: 24px;
+}
+
+div {
+	width: 16em;
+	height: 6em;
+	font-size: 1.4em;
+	background-color: orange;
+	border-radius: 2em;
+	border: .2em solid orange;
+	text-align: center;
+	padding:3em 1em 1em 1em;
+}
+
+div:hover {
+	cursor: pointer;
+	border: .2em solid black;
+}
